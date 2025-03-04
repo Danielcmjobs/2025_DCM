@@ -5,12 +5,12 @@ Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /logs/
 
-Sitemap: https://tusitio.com/sitemap.xml
+Sitemap: https://danielcmjobs.github.io/2025_DCM/sitemap.xml
 
 # Permite indexar todas las demás páginas
 Allow: /
 
-# Evita que imágenes sean indexadas (opcional)
+# Evita que imágenes privadas sean indexadas (opcional)
 User-agent: Googlebot-Image
 Disallow: /images/private/
 
@@ -18,3 +18,4 @@ Disallow: /images/private/
 Disallow: /*.pdf$
 Disallow: /*.zip$
 Disallow: /*.exe$
+
