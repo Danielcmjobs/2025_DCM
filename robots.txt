@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /logs/
+
+Sitemap: https://tusitio.com/sitemap.xml
+
+# Permite indexar todas las demás páginas
+Allow: /
+
+# Evita que imágenes sean indexadas (opcional)
+User-agent: Googlebot-Image
+Disallow: /images/private/
+
+# Evita que ciertos archivos sean rastreados (opcional)
+Disallow: /*.pdf$
+Disallow: /*.zip$
+Disallow: /*.exe$
